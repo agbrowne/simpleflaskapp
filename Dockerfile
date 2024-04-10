@@ -8,6 +8,7 @@ WORKDIR agb-pipeline
 COPY . ./agb-pipeline
 
 # install dependencies
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # expose port
