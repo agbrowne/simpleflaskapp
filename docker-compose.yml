@@ -6,6 +6,6 @@ services:
     container_name: agb-pipeline
     image: agbrowne/agb-pipeline:latest
     build: ./
-    port:
+    ports:
       - 5000:5000
 
