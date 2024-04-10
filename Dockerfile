@@ -5,10 +5,10 @@ FROM python:3.7
 WORKDIR agb-pipeline
 
 # copy files across
-COPY . ./agb-pipeline
+COPY . /agb-pipeline
 
 # install dependencies
-COPY requirements.txt .
+# COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 # expose port
