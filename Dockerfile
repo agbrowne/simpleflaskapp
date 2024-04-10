@@ -1,5 +1,5 @@
 # python 3.7
-python:3.7
+FROM python:3.7
 
 # create working directory
 WORKDIR agb-pipeline
