@@ -1,3 +1,11 @@
+# Do not forget to put the jenkins user into the docker group, start
+# jenkins and start docker, then change the ownership of
+# /var/run/docker.sock:
+#
+# chown jenkins:jenkins /var/run/docker.sock
+#
+
+
 # python 3.7
 FROM python:3.7
 
